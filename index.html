@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>My Schedule</title>
+
+<style>
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    border: 3px solid #333;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: 2px solid #333;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid #666;
+    text-align: center;
+  }
+
+  .highlight-row {
+    background-color: #f0f8ff;
+  }
+
+  col.time-column {
+    background-color: #e0e0e0;
+    width: 25%;
+  }
+</style>
+
+</head>
+<body>
+
+<h1 style="text-align:center;">My Busy Day Schedule</h1>
+
+<table>
+  <colgroup>
+    <col class="time-column" />
+    <col />
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th>Event</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>7:00 AM</td>
+      <td>Wake Up</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>8:00 AM</td>
+      <td>Breakfast</td>
+    </tr>
+    <tr>
+      <td>9:00 AM</td>
+      <td>Go to School</td>
+    </tr>
+    <tr>
+      <td>12:00 PM</td>
+      <td>Lunch</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>3:00 PM</td>
+      <td>Sports Practice</td>
+    </tr>
+    <tr>
+      <td>5:00 PM</td>
+      <td>Homework</td>
+    </tr>
+    <tr>
+      <td>7:00 PM</td>
+      <td>Dinner</td>
+    </tr>
+    <tr>
+      <td>9:00 PM</td>
+      <td>Free Time</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
